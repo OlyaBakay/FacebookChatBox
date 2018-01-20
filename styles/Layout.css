@@ -1,0 +1,12 @@
+.Layout {
+  background-color: #e3f2fd;
+  font-family: 'Open Sans', sans-serif;
+}
+.Layout__chat-box {
+  width: 292px;
+  height: 384px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.11);
+}

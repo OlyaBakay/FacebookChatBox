@@ -1,0 +1,33 @@
+.My-mess {
+  float: right;
+  clear: right;
+  margin-right: 18px;
+  margin-bottom: 5px;
+  background-color: #2979ff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  border-radius: 10px 2px 2px 10px;
+  max-width: 186px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  color: white;
+  padding: 8px 21px 7px 22px;
+}
+.My-mess::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.My-mess__top {
+  margin-top: 8px;
+  margin-bottom: 1px;
+  border-radius: 17px 17px 0 17px;
+}
+.My-mess__mid {
+  margin-bottom: 1px;
+  border-radius: 17px 17px 0 17px;
+}
+.My-mess__last {
+  margin-bottom: 13px;
+  border-radius: 17px 0 17px 17px;
+}

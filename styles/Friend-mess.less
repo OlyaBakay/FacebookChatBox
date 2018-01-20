@@ -1,0 +1,52 @@
+.Friend-mess{
+  margin: 17px 0 5px 10px;
+  position: relative;
+  clear: both;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  &__pic{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    //top: 0;
+    left: 0;
+  }
+
+
+  &__text {
+    float: left;
+    background-color: #f3f3f3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    border-radius: 17px;
+    max-width: 181px;
+    color: #353535;
+    padding: 5px 15px 7px 12px;
+    margin: 1px 0 1px 40px;
+    clear: left;
+
+
+    &:not(:first-of-type){
+      clear: left;
+    }
+
+    &_top{
+      border-radius: 15px 15px 15px 0;
+    }
+
+    &_middle {
+      border-radius: 0 15px 15px 0;
+    }
+
+    &_bottom{
+      border-radius: 0 15px 10px 15px;
+    }
+  }
+
+}

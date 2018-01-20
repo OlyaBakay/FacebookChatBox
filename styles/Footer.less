@@ -1,0 +1,60 @@
+.Footer{
+  border-top: #e5e5e5 1px solid;
+  background-color:white;
+  height: 62px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+
+  &__input-text{
+    &:focus{
+      outline: none;
+    }
+    &::placeholder{
+      color: #cdcdcd;
+      font-weight: 600;
+
+    }
+    font-family: OpenSans, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    display: inline-block;
+    margin: 7px 0 0 16px;
+    border: transparent;
+    box-sizing: border-box;
+  }
+
+  &__icons{
+    width: 16px;
+    height: 16px;
+    float: left;
+    &_picture{
+      background: url("../img/Picture.svg") no-repeat;
+      margin: 10px 0 12px 16px;
+    }
+    &_gif{
+      background: url("../img/Gif.svg") no-repeat;
+      width: 21px;
+      height: 16px;
+      margin: 9px 0 13px 10px;
+    }
+    &_smile{
+      background: url("../img/Smile.svg") no-repeat;
+      margin: 9px 0 13px 10px;
+    }
+
+    &_calendar{
+      background: url("../img/Calendar.svg") no-repeat;
+      height: 18px;
+      margin: 7px 0 13px 10px;
+    }
+    &_camera{
+      background: url("../img/Camera.svg") no-repeat;
+      width: 21px;
+      height: 17px;
+      margin: 8px 0 13px 10px;
+    }
+  }
+}

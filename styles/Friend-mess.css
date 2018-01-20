@@ -1,0 +1,42 @@
+.Friend-mess {
+  margin: 17px 0 5px 10px;
+  position: relative;
+  clear: both;
+}
+.Friend-mess:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Friend-mess__pic {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+}
+.Friend-mess__text {
+  float: left;
+  background-color: #f3f3f3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  border-radius: 17px;
+  max-width: 181px;
+  color: #353535;
+  padding: 5px 15px 7px 12px;
+  margin: 1px 0 1px 40px;
+  clear: left;
+}
+.Friend-mess__text:not(:first-of-type) {
+  clear: left;
+}
+.Friend-mess__text_top {
+  border-radius: 15px 15px 15px 0;
+}
+.Friend-mess__text_middle {
+  border-radius: 0 15px 15px 0;
+}
+.Friend-mess__text_bottom {
+  border-radius: 0 15px 10px 15px;
+}

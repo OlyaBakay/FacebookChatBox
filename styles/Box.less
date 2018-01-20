@@ -1,0 +1,61 @@
+.Box {
+  background-color: #2979ff;
+  border-radius: 4px 4px 0 0;
+  height: 32px;
+  cursor: pointer;
+
+  &__head:before{
+    content: "";
+    background-color: #69f0ae;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: -15px;
+  }
+
+  &__head {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    left: 26px;
+    top: -7px;
+    position:  absolute;
+  }
+
+  &__icons {
+    width: 12px;
+    height: 12px;
+    float: right;
+
+    &_plus {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background: url("../img/Plus.svg") no-repeat;
+    }
+
+    &_video {
+      height: 8px;
+      margin-top: 12px;
+      margin-bottom: 12px;
+      margin-left: 15px;
+      background: url("../img/Video.svg") no-repeat;
+    }
+
+    &_cog {
+      margin: 10px 10px 10px 14px;
+      background: url("../img/Cog.svg") no-repeat;
+    }
+
+    &_close {
+      height: 18px;
+      width: 18px;
+      margin: 7px 8px 7px 0;
+      background: url("../img/Close.svg") no-repeat;
+    }
+
+  }
+}

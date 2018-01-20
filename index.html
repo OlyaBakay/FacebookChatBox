@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/Layout.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/Box.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/Footer.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/Friend-mess.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/My-mess.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/Chat-body.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <title>ChatBox</title>
+
+</head>
+<body class="Layout">
+<section class="Layout__chat-box">
+    <header class="Box">
+        <h4 class="Box__head">Kristaps Elsins</h4>
+        <span class="Box__icons Box__icons_close"></span>
+        <span class="Box__icons Box__icons_cog"></span>
+        <span class="Box__icons Box__icons_video"></span>
+        <span class="Box__icons Box__icons_plus"></span>
+    </header>
+
+    <div class="Chat-body">
+        <div class="Friend-mess">
+            <img src="img/user.jpg" class="Friend-mess__pic">
+            <p class="Friend-mess__text">Yo, Can you update views?</p>
+        </div>
+
+        <time class="Chat-body__data">
+            FRI 11:30AM
+        </time>
+
+        <div class="Friend-mess">
+            <img src="img/user.jpg" class="Friend-mess__pic">
+
+            <p class="Friend-mess__text">I can't see updated views yet</p>
+        </div>
+
+        <div class="My-mess My-mess__top">
+            Hi, as I noted in Email last week - I am on vacation.
+        </div>
+
+        <div class="My-mess My-mess__last">
+            I will be back next week
+        </div>
+
+        <div class="Friend-mess">
+            <img src="img/user.jpg" class="Friend-mess__pic">
+                <p class="Friend-mess__text Friend-mess__text_top">Ahh sorry, missed that!</p>
+                <!--<p class="Friend-mess__text Friend-mess__text_middle"> jnvkfbfvk b jkb krb kb rjkfbjk jkr nkn</p>-->
+                <p class="Friend-mess__text Friend-mess__text_bottom">Let's talk next week</p>
+        </div>
+
+        <div class="My-mess">
+            I will be back next week
+        </div>
+
+    </div>
+
+    <div class="Footer">
+        <form>
+            <input class="Footer__input-text" type="text" placeholder="Type a message...">
+        </form>
+        <span class="Footer__icons Footer__icons_picture"></span>
+        <span class="Footer__icons Footer__icons_gif"></span>
+        <span class="Footer__icons Footer__icons_smile"></span>
+        <span class="Footer__icons Footer__icons_calendar"></span>
+        <span class="Footer__icons Footer__icons_camera"></span>
+    </div>
+</section>
+</body>
+</html>
