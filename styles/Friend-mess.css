@@ -17,6 +17,7 @@
   left: 0;
 }
 .Friend-mess__text {
+  word-wrap: break-word;
   float: left;
   background-color: #f3f3f3;
   font-family: 'Open Sans', sans-serif;
