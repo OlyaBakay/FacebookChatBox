@@ -5,23 +5,23 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/Layout.css" type="text/css"/>
-    <link rel="stylesheet" href="styles/Header.css" type="text/css"/>
-    <link rel="stylesheet" href="styles/Footer.css" type="text/css"/>
-    <link rel="stylesheet" href="styles/Friend-mess.css" type="text/css"/>
-    <link rel="stylesheet" href="styles/My-mess.css" type="text/css"/>
-    <link rel="stylesheet" href="styles/Chat-body.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/chat-layout.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/chat-header.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/chat-footer.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/friend-mess.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/my-mess.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/chat-body.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <title>ChatBox</title>
 </head>
 <body style="background-color:#e3f2fd">
-<section class="layout__chat-box">
+<section class="chat-layout__chat-box">
     <header class="chat-header">
         <h4 class="chat-header__head">Kristaps Elsins</h4>
-        <span class="chat-header__icons chat-header__icons_close"></span>
-        <span class="chat-header__icons chat-header__icons_cog"></span>
-        <span class="chat-header__icons chat-header__icons_video"></span>
-        <span class="chat-header__icons chat-header__icons_plus"></span>
+        <button class="chat-header__icons chat-header__icons_close"></button>
+        <button class="chat-header__icons chat-header__icons_cog"></button>
+        <button class="chat-header__icons chat-header__icons_video"></button>
+        <button class="chat-header__icons chat-header__icons_plus"></button>
     </header>
     <div class="chat-body">
         <div class="friend-mess">
@@ -32,19 +32,20 @@
             FRI 11:30AM
         </time>
         <div class="friend-mess">
-            <img src="img/user.jpg" class="friend-mess__pic">
+            <img class="friend-mess__pic"
+                 src="http://res.cloudinary.com/dp1omhmoz/image/upload/v1516474556/user_p4zsgu.jpg"
+                 alt="Your-Friend">
             <p class="friend-mess__text">I can't see updated views yet</p>
         </div>
-        <div class="my-mess my-mess__first">
-            Hi, as I noted in Email last week - I am on vacation.
+        <div class="my-mess">
+            <p class="my-mess__text my-mess__text_first">Hi, as I noted in Email last week - I am on vacation.</p>
         </div>
-        <div class="my-mess my-mess__last">
-            I will be back next week
+        <div class="my-mess">
+            <p class="my-mess__text my-mess__text_mid">I will be back next week</p>
         </div>
         <div class="friend-mess">
             <img src="img/user.jpg" class="friend-mess__pic">
             <p class="friend-mess__text friend-mess__text_first">Ahh sorry, missed that!</p>
-            <!--<p class="Friend-mess__text Friend-mess__text_middle"> jnvkfbfvk b jkb krffffffffffffffffffffffffffffffffffffffffffffffffffffffb kb rjkfbjk jkr nkn</p>-->
             <p class="friend-mess__text friend-mess__text_last">Let's talk next week</p>
         </div>
     </div>
@@ -52,11 +53,11 @@
         <form>
             <input class="chat-footer__input-text" type="text" placeholder="Type a message...">
         </form>
-        <span class="chat-footer__icons chat-footer__icons_picture"></span>
-        <span class="chat-footer__icons chat-footer__icons_gif"></span>
-        <span class="chat-footer__icons chat-footer__icons_smile"></span>
-        <span class="chat-footer__icons chat-footer__icons_calendar"></span>
-        <span class="chat-footer__icons chat-footer__icons_camera"></span>
+        <button class="chat-footer__icons chat-footer__icons_picture"></button>
+        <button class="chat-footer__icons chat-footer__icons_gif"></button>
+        <button class="chat-footer__icons chat-footer__icons_smile"></button>
+        <button class="chat-footer__icons chat-footer__icons_calendar"></button>
+        <button class="chat-footer__icons chat-footer__icons_camera"></button>
     </div>
 </section>
 </body>

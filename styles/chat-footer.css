@@ -26,6 +26,8 @@
   height: 16px;
   float: left;
   margin: 10px 0 13px 16px;
+  border: none;
+  cursor: pointer;
 }
 .chat-footer__icons_picture {
   background: url("../img/Picture.svg") no-repeat;
