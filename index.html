@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/Layout.css" type="text/css"/>
-    <link rel="stylesheet" href="styles/Box.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/Header.css" type="text/css"/>
     <link rel="stylesheet" href="styles/Footer.css" type="text/css"/>
     <link rel="stylesheet" href="styles/Friend-mess.css" type="text/css"/>
     <link rel="stylesheet" href="styles/My-mess.css" type="text/css"/>
@@ -14,58 +14,49 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <title>ChatBox</title>
 </head>
-
-<body class="Layout">
-<section class="Layout__chat-box">
-    <header class="Box">
-        <h4 class="Box__head">Kristaps Elsins</h4>
-        <span class="Box__icons Box__icons_close"></span>
-        <span class="Box__icons Box__icons_cog"></span>
-        <span class="Box__icons Box__icons_video"></span>
-        <span class="Box__icons Box__icons_plus"></span>
+<body style="background-color:#e3f2fd">
+<section class="layout__chat-box">
+    <header class="chat-header">
+        <h4 class="chat-header__head">Kristaps Elsins</h4>
+        <span class="chat-header__icons chat-header__icons_close"></span>
+        <span class="chat-header__icons chat-header__icons_cog"></span>
+        <span class="chat-header__icons chat-header__icons_video"></span>
+        <span class="chat-header__icons chat-header__icons_plus"></span>
     </header>
-
-    <div class="Chat-body">
-        <div class="Friend-mess">
-            <img src="img/user.jpg" class="Friend-mess__pic">
-            <p class="Friend-mess__text">Yo, Can you update views?</p>
+    <div class="chat-body">
+        <div class="friend-mess">
+            <img src="img/user.jpg" class="friend-mess__pic">
+            <p class="friend-mess__text">Yo, Can you update views?</p>
         </div>
-
-        <time class="Chat-body__data">
+        <time class="chat-body__time">
             FRI 11:30AM
         </time>
-
-        <div class="Friend-mess">
-            <img src="img/user.jpg" class="Friend-mess__pic">
-            <p class="Friend-mess__text">I can't see updated views yet</p>
+        <div class="friend-mess">
+            <img src="img/user.jpg" class="friend-mess__pic">
+            <p class="friend-mess__text">I can't see updated views yet</p>
         </div>
-
-        <div class="My-mess My-mess__top">
+        <div class="my-mess my-mess__first">
             Hi, as I noted in Email last week - I am on vacation.
         </div>
-
-        <div class="My-mess My-mess__last">
+        <div class="my-mess my-mess__last">
             I will be back next week
         </div>
-
-        <div class="Friend-mess">
-            <img src="img/user.jpg" class="Friend-mess__pic">
-                <p class="Friend-mess__text Friend-mess__text_top">Ahh sorry, missed that!</p>
-                <!--<p class="Friend-mess__text Friend-mess__text_middle"> jnvkfbfvk b jkb krffffffffffffffffffffffffffffffffffffffffffffffffffffffb kb rjkfbjk jkr nkn</p>-->
-                <p class="Friend-mess__text Friend-mess__text_bottom">Let's talk next week</p>
+        <div class="friend-mess">
+            <img src="img/user.jpg" class="friend-mess__pic">
+            <p class="friend-mess__text friend-mess__text_first">Ahh sorry, missed that!</p>
+            <!--<p class="Friend-mess__text Friend-mess__text_middle"> jnvkfbfvk b jkb krffffffffffffffffffffffffffffffffffffffffffffffffffffffb kb rjkfbjk jkr nkn</p>-->
+            <p class="friend-mess__text friend-mess__text_last">Let's talk next week</p>
         </div>
-
     </div>
-
-    <div class="Footer">
+    <div class="chat-footer">
         <form>
-            <input class="Footer__input-text" type="text" placeholder="Type a message...">
+            <input class="chat-footer__input-text" type="text" placeholder="Type a message...">
         </form>
-        <span class="Footer__icons Footer__icons_picture"></span>
-        <span class="Footer__icons Footer__icons_gif"></span>
-        <span class="Footer__icons Footer__icons_smile"></span>
-        <span class="Footer__icons Footer__icons_calendar"></span>
-        <span class="Footer__icons Footer__icons_camera"></span>
+        <span class="chat-footer__icons chat-footer__icons_picture"></span>
+        <span class="chat-footer__icons chat-footer__icons_gif"></span>
+        <span class="chat-footer__icons chat-footer__icons_smile"></span>
+        <span class="chat-footer__icons chat-footer__icons_calendar"></span>
+        <span class="chat-footer__icons chat-footer__icons_camera"></span>
     </div>
 </section>
 </body>

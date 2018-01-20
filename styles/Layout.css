@@ -1,8 +1,6 @@
-.Layout {
-  background-color: #e3f2fd;
+.layout__chat-box {
   font-family: 'Open Sans', sans-serif;
-}
-.Layout__chat-box {
+  font-size: 12px;
   width: 292px;
   height: 384px;
   background-color: #ffffff;

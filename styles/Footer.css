@@ -1,55 +1,57 @@
-.Footer {
+.chat-footer {
   border-top: #e5e5e5 1px solid;
   background-color: white;
   height: 62px;
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
 }
-.Footer__input-text {
-  font-family: OpenSans, sans-serif;
-  font-size: 12px;
+.chat-footer__input-text {
   text-align: left;
   display: inline-block;
   margin: 7px 0 0 16px;
   border: transparent;
   box-sizing: border-box;
 }
-.Footer__input-text:focus {
+.chat-footer__input-text:focus {
   outline: none;
 }
-.Footer__input-text::placeholder {
+.chat-footer__input-text::placeholder {
   color: #cdcdcd;
   font-weight: 600;
 }
-.Footer__icons {
+.chat-footer__icons {
   width: 16px;
   height: 16px;
   float: left;
+  margin: 10px 0 13px 16px;
 }
-.Footer__icons_picture {
+.chat-footer__icons_picture {
   background: url("../img/Picture.svg") no-repeat;
-  margin: 10px 0 12px 16px;
+  margin-bottom: 12px;
 }
-.Footer__icons_gif {
+.chat-footer__icons_gif {
   background: url("../img/Gif.svg") no-repeat;
   width: 21px;
-  height: 16px;
-  margin: 9px 0 13px 10px;
+  margin-top: 9px;
+  margin-left: 10px;
 }
-.Footer__icons_smile {
+.chat-footer__icons_smile {
   background: url("../img/Smile.svg") no-repeat;
-  margin: 9px 0 13px 10px;
+  margin-top: 9px;
+  margin-left: 10px;
 }
-.Footer__icons_calendar {
+.chat-footer__icons_calendar {
   background: url("../img/Calendar.svg") no-repeat;
   height: 18px;
-  margin: 7px 0 13px 10px;
+  margin-top: 7px;
+  margin-left: 10px;
 }
-.Footer__icons_camera {
+.chat-footer__icons_camera {
   background: url("../img/Camera.svg") no-repeat;
   width: 21px;
   height: 17px;
-  margin: 8px 0 13px 10px;
+  margin-top: 8px;
+  margin-left: 10px;
 }

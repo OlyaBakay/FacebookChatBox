@@ -1,14 +1,14 @@
-.Friend-mess {
+.friend-mess {
   margin: 17px 0 5px 10px;
   position: relative;
   clear: both;
 }
-.Friend-mess:after {
+.friend-mess:after {
   content: "";
   display: table;
   clear: both;
 }
-.Friend-mess__pic {
+.friend-mess__pic {
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -16,7 +16,7 @@
   cursor: pointer;
   left: 0;
 }
-.Friend-mess__text {
+.friend-mess__text {
   word-wrap: break-word;
   float: left;
   background-color: #f3f3f3;
@@ -29,15 +29,15 @@
   margin: 1px 0 1px 40px;
   clear: left;
 }
-.Friend-mess__text:not(:first-of-type) {
+.friend-mess__text:not(:first-of-type) {
   clear: left;
 }
-.Friend-mess__text_top {
+.friend-mess__text_first {
   border-radius: 15px 15px 15px 0;
 }
-.Friend-mess__text_middle {
+.friend-mess__text_middle {
   border-radius: 0 15px 15px 0;
 }
-.Friend-mess__text_bottom {
+.friend-mess__text_last {
   border-radius: 0 15px 10px 15px;
 }

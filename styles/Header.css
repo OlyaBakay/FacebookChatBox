@@ -1,20 +1,20 @@
-.Box {
+.chat-header {
   background-color: #2979ff;
   border-radius: 4px 4px 0 0;
   height: 32px;
   cursor: pointer;
 }
-.Box__head:before {
+.chat-header__head:before {
   content: "";
   background-color: #69f0ae;
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  position: absolute;
   top: 5px;
   left: -15px;
+  position: absolute;
 }
-.Box__head {
+.chat-header__head {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -24,26 +24,27 @@
   top: -7px;
   position: absolute;
 }
-.Box__icons {
+.chat-header__icons {
   width: 12px;
   height: 12px;
   float: right;
+  margin: 12px 0 12px 15px;
 }
-.Box__icons_plus {
+.chat-header__icons_plus {
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 0;
   background: url("../img/Plus.svg") no-repeat;
 }
-.Box__icons_video {
+.chat-header__icons_video {
   height: 8px;
-  margin: 12px 0 12px 15px;
   background: url("../img/Video.svg") no-repeat;
 }
-.Box__icons_cog {
+.chat-header__icons_cog {
   margin: 10px 10px 10px 14px;
   background: url("../img/Cog.svg") no-repeat;
 }
-.Box__icons_close {
+.chat-header__icons_close {
   height: 18px;
   width: 18px;
   margin: 7px 8px 7px 0;
